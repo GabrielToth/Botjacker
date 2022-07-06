@@ -62,5 +62,3 @@ while not keyboard.is_pressed('q'):
             #pyautogui.moveTo(card) # Moves the mouse to the coordinates of the image
             #click()
         
-
-
