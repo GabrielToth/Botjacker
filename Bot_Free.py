@@ -11,8 +11,8 @@ time.sleep(3)
 
 def read_image_list(category):
     filenames = []
-    French_Suits_list = ['spades', 'clubs', 'hearts','diamond']
-    ranks_list = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
+    French_Suits_list = ['black', 'yellow']
+    ranks_list = ['1_11','2','3','4','5','6','7','8','9','10']
     for i in French_Suits_list:
         for j in ranks_list:
             filenames.append(j + "_" + i)
